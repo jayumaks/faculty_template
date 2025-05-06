@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+.team-section {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.team-section h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.team-section span {
+    color: gray;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-card {
+    background: white;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-content {
+    flex: 1;
+}
+
+.profile-content h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.profile-content span {
+    display: block;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.email-phone {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+.bio {
+    font-size: 1rem;
+    color: #333;
+}
+
+button.view-more {
+    margin-top: 15px;
+    padding: 8px 20px;
+    background: #007BFF;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button.view-more:hover {
+    background: #0056b3;
+}
+
+.staff-img {
+    width: 100%;
+    height: 300px; /* Adjust if you want */
+    object-fit: cover;
+    object-position: top center; /* <<< This ensures the top is always visible */
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
